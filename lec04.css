@@ -1,0 +1,24 @@
+h1 {
+    background-color: aqua;
+    height: 100px;
+    width: 200px;
+}
+
+p {
+    background-color: rgb(255, 166, 0);
+}
+
+div {
+    background-color: rgb(255, 0, 191);
+}
+
+span {
+    background-color: blueviolet;
+    display: inline-block;
+    height: 100px;
+    width: 200px;
+}
+
+a {
+    background-color: cadetblue;
+}
