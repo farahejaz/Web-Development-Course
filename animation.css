@@ -1,0 +1,58 @@
+#box1 {
+    width: 250px;
+    height: 200px;
+    background-color: red;
+    font-size: 150px;
+    text-align: center;
+
+}
+
+img {
+    animation: slideright;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+@keyframes slideleft {
+    from {
+        transform: translateX(300%);
+    }
+}
+
+@keyframes slideright {
+    to {
+        transform: translateX(300%);
+    }
+}
+
+@keyframes slideup {
+    from {
+        transform: translateY(300%);
+    }
+}
+
+@keyframes slidedown {
+    to {
+        transform: translateY(300%);
+    }
+}
+
+@keyframes rotate {
+    50% {
+        transform: translateZ(360deg);
+    }
+}
+
+@keyframes grow {
+    50% {
+        transform: scale(2, 2)
+    }
+}
+
+@keyframes shrink {
+    50% {
+        transform: scale(0.5, 0.5)
+    }
+
+}
