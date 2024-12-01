@@ -1,0 +1,30 @@
+.hello{
+    background-color: rgb(210, 12, 232);
+    border-radius: 30px;
+}
+.hello li {
+    float: left;
+    list-style: none;
+    text-decoration: none;
+    padding: 3px 3px;
+    color: bisque;
+    margin: 30px ;
+
+}
+.hello ul{
+    overflow: auto;
+}
+*{
+    margin: 2px;
+    padding: 0;
+}
+.search{
+      float: right;
+      padding: 30px 50px;
+      color: white;
+}
+.hello input{
+    border-radius: 4px;
+    border: 2px solid black;
+    padding: 8px 6px;
+}
